@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+.Button {
+    position: absolute;
+    top: 256px;
+    left: 64px;
+    font-size: 28px;
+    font-family: Verdana, sans-serif;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 12px 32px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.Button:hover {
+    background-color: azure;
+}
+
+#canvas {
+    margin-top: 20px;
+    margin-left: 20px;
+}
